@@ -5,7 +5,7 @@ THREE.PointOfInterest = function(opts) {
     this.id = opts.id;
 
     this.found = false;
-    this.labelPopupDistance = 150;
+    this.labelPopupDistance = 200;
     this.lineEndpoint = this.getLineEndpoint();
     this.line = this.addLine();
     this.textLabel = this.addTextLabel();
