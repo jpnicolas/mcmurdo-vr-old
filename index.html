@@ -305,6 +305,10 @@
                 }
             }
 
+            if (is_mobile) {
+                camera.rotateX(Math.PI/2.);
+            }
+
             // Update the scene through the manager.
             manager.render(scene, camera);
 
